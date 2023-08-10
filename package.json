@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "less-loader": "^7.3.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -36,6 +39,7 @@
     },
     "rules": {
       "vue/multi-word-component-names": "off",
+      "vue/no-unused-components": "off",
       "generator-star-spacing": "off",
       "no-tabs": "off",
       "no-unused-vars": "off",
